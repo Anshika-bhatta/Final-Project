@@ -1,0 +1,9 @@
+<?php  
+session_start(); 
+unset($_SESSION['source']);
+unset($_SESSION['destination']);
+unset($_SESSION['number']);
+unset($_SESSION['date']);
+session_destroy(); 
+header("Location:./TicketBook.php");
+?>

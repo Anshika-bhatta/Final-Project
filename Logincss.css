@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("airplanes-flying-over-world-map-vector.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Verdana;
+		height:100vh;
+	overflow: hidden;
+}
+.center{
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+	 width: 400px;
+	 background: white;
+	 border-radius: 10px;
+	 box-shadow: 10px 10px 8px #000000;
+}
+.center h1{
+	color: #626567; 
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+.center form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+form .txt_field{
+	position: relative;
+	border-bottom: 2px solid #adadad;
+	margin: 30px 0;
+}
+.txt_field input{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.showpassword input{
+	margin: -5px 0 20px 5px;
+	color: #626567;
+	font-family:Verdana; 
+	font-size: 16px;
+	cursor: pointer;
+}
+.showpassword label{
+	margin: -5px 0 20px 5px;
+	color: #626567;
+	font-family:Verdana; 
+	font-size: 16px;
+	cursor: pointer;
+}
+.showpassword label:hover{
+	text-decoration: none;
+}
+
+.submitbtn{
+	width: 100%;
+	height: 50px;
+	border: 1px solid;
+	background: #3FC9D3;
+	border-radius: 25px;
+	font-size: 15px;
+	color: #F4FAFA;
+	font-weight: 700;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.submitbtn:hover{
+	background: #3AB6BE;
+	border-color: #3AB6BE;
+	transition: .3s;
+}
+.Errormsg{
+	position: relative;
+	text-align: center;
+	color: red;
+	margin-bottom: 10px;
+}
+nav{
+    font-family: tahoma;
+    overflow: hidden;
+    background-color:#09f4f8;
+}
+nav a{
+    font-size: 18px;
+    float:right;
+    color:rgb(41, 41, 114);
+    padding:14px 12px 11px 10px;
+    text-decoration:none;
+    transition: transform 0.2s;
+}
+nav a:hover{
+    background-color:#0aa2c3 ;
+    color:#000000;
+    transform: scale(1.05);
+}

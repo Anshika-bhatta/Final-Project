@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("Minimalism-Desktop-Wallpaper-HQ.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	height: 100vh;
+
+
+}
+table{
+	overflow: auto;
+	width: 100%;
+	}
+table input{
+	background-color: #2980B9;
+	height: 30px;
+
+	border-radius: 9px;
+	color: #E1E8EE;
+	font-weight: bold;
+
+}
+table input:hover{
+	background-color: #21618C;
+	transform: scale(1.1);
+	transition: 0.3s;
+	box-shadow: 2px 2px 4px #000000;
+}
+th,td{
+	/*border-bottom: 2px solid silver;*/
+	text-align: center;
+	vertical-align: center;
+	padding: 20px;
+
+/*border: 20px;*/
+}
+td{
+	
+padding: 30px;
+}
+th{
+	background-color: #3FC9D3;
+	letter-spacing: 2px;
+}
+tr:nth-child(even){
+	background-color: silver;
+}
+tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+.center{
+	position: absolute;
+	margin-left: 5px;
+	
+	width: 95%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: auto;
+	margin-top: 20vh;
+	margin-bottom: 30vh;
+	box-shadow: 0px 0px 8px #fff;
+}
+.btn{
+	position: absolute;
+	top:5%;
+	left: 95%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+
+}
+.empty{
+	margin-top: 40vh;
+}
+.btninput{
+	height: 40px;
+	width: 60px;
+	position: relative;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #F4706A;
+	border: 2px solid black;
+	font-weight: bold;
+
+}
+.btninput:hover{
+	cursor: pointer;
+	background: #D5615C;
+	border: 2px solid black;
+	transition: .3s;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 5px #000;
+}
+.nav{
+    font-family: tahoma;
+    /*overflow: hidden;*/
+    background-color:black;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+button{
+	border-radius: 7px;
+	height: 30px;
+	width: 70px;
+	background-color:#55F193;
+	font-weight: bold;
+}
+button:hover{
+	background-color:#4CC47C ;
+	transition: .3s;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 5px #000000;
+
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
+#NoFlight{
+	color: white;
+	background-color: yellow;
+}

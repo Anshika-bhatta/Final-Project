@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("d91e47a697f15303a475b84dbc51589b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+nav{
+    font-family: tahoma;
+    overflow: hidden;
+    background-color:#09f4f8;
+}
+nav a{
+    font-size: 18px;
+    float:right;
+    color:rgb(41, 41, 114);
+    padding:14px 12px 11px 10px;
+    text-decoration:none;
+    transition: transform 0.2s;
+}
+nav a:hover{
+    background-color:#0aa2c3 ;
+    color:#000000;
+    transform: scale(1.05);
+}
+nav a:active{
+     background-color:#0aa2c3 ;
+    color:#000000;
+}

@@ -1,0 +1,233 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	
+	background-image: url("92997-architecture-photography-minimalism-minimalist-hd-4k-5k.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	background: white;
+	 border-radius: 10px;
+	 box-shadow: 10px 10px 8px #000000;
+}
+.container h1{
+	color: #626567; 
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+.container form{
+	padding: 0 40px;
+	box-sizing: border-box;
+	}
+.BookedAirline{
+	display: inline;
+}
+
+.BookedFlightNumber{
+	display: inline;
+}
+.BookedFlightNumber label{
+	margin-left: 20px;
+}
+.AirlineField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	font-style: italic;
+	
+}
+.FlightNumberField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	font-style: italic;
+}
+.BookedSource{
+	display: inline;
+}
+.BookedDestination{
+	display: inline;
+}
+.BookedDestination label{
+	margin-left: 14px;
+}
+.SourceField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	font-style: italic;
+}
+.DestinationField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	font-style: italic;
+}
+.BookedDate{
+	display: inline;
+}
+.BookedTime{
+	display: inline;
+}
+.BookedTime{
+	margin-left: 30px;
+}
+.DateField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	/*text-decoration: underline;*/
+	font-style: italic;
+}
+.TimeField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	/*text-decoration: underline;*/
+	font-style: italic;
+}
+.NoOfPassengerField{
+	width: 20%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	/*text-decoration: underline;*/
+	font-style: italic;
+}
+
+.FullNameField{
+	width: 50%;
+	padding: 0 5px;
+	height: 25px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	cursor: pointer;
+	margin-left: 10px;
+	/*text-decoration: underline;*/
+}
+.AgeField{
+	width: 50%;
+	padding: 0 5px;
+	height: 25px;
+	font-size: 16px;
+	border:none;
+	background: none;
+	border-radius: 7px;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-left: 58px;
+}
+.ContactField{
+	width: 50%;
+	padding: 0 5px;
+	height: 25px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	border-radius: 7px;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+.FlightandAirline,.SourceAndDestination,.DateAndTime,.TotalPassenger{
+	margin-bottom: 15px;
+	border-bottom: 1px solid silver;
+
+}
+.FullName,.Age,.Gender,.ContactNumber{
+	margin-bottom: 15px;
+	border-bottom: 1px solid silver;
+}
+.Gender{
+	padding-bottom: 15px ;
+}
+.Gender input{
+	margin-left: 35px;
+}
+.Gender input:hover{
+	transform: scale(1.5);
+	cursor: pointer;
+	transition: .3s;
+	
+}
+
+.ProceedBooking{
+	height: 40px;
+	width: 120px;
+	margin-left: 40px;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #28B463;
+	border: 2px solid black;
+	color: black;
+	font-weight: bold;
+}
+.ProceedBooking:hover{
+	background: #1D8348;
+	border: 2px solid black;
+	transition: .3s;
+	transform: scale(1.1);
+	color: white;
+	cursor: pointer;
+}
+.CancelBooking{
+	height: 40px;
+	width: 120px;
+	position: absolute;
+	left: 60%;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #CB4335;
+	border: 2px solid black;
+	font-weight: bold;
+	color: white;
+}
+.CancelBooking:hover{
+	background: #943126;
+	border: 2px solid black;
+	transition: .3s;
+	transform: scale(1.1);
+	color: white;
+	cursor: pointer;
+}
+.buttons{
+	margin-bottom: 15px;
+}

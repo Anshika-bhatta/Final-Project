@@ -1,0 +1,231 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	background-image: url("d91e47a697f15303a475b84dbc51589b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+.center{
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+	 width: 350px;
+	 background: white;
+	 /*border-radius: 10px;*/
+	 box-shadow: 10px 10px 18px #000010;
+
+
+}
+.center h4{
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	font-family: Verdana;
+	text-align: center;
+	color: #626567;
+	/*padding: 0 0 5px 0;*/
+	
+}
+.head{
+	/*padding: 0 0 20px 0;*/
+	border-bottom: 1px solid black;
+	background-color:#1CDDDA;
+}
+.SourceAndDestination{
+	padding-left: 20px;
+	display: inline-block;
+	text-align: left;
+}
+.s1{
+	font-family: Cambria;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+.s2{
+	font-family: Cambria;
+	font-size: 15px;
+	
+
+}
+.s3{
+	padding-left: 5px;
+	font-family: Cambria;
+	font-size: 20px;
+	font-weight: bold;
+}
+.Airline{
+	font-family: Courier New;
+	padding-left: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	display: inline-block;
+
+}
+.TicketNo{
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+}
+.TicketNo input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.TicketNo label{
+	font-weight: bold;
+}
+
+.FlightnoSeats{
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+}
+.FlightnoSeats input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.FlightnoSeats label{
+	font-weight: bold;
+}
+.Flightno{
+	padding-bottom: 5px;
+}
+.date{
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+}
+.date input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.date label{
+	font-weight: bold;
+}
+.time{
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+	border-bottom:1px solid silver ;
+	padding-bottom: 10px;
+}
+.time input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.time label{
+	font-weight: bold;
+}
+.passengername{
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.passengername input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.passengername label{
+	font-weight: bold;
+}
+.contact{
+	
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+	
+}
+.contact input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.contact label{
+	font-weight: bold;
+}
+.Age{
+	
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+.Age input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.Age label{
+	font-weight: bold;
+}
+.Gender{
+	
+	padding-left: 20px;
+	font-family: Cambria;
+	font-size: 15px;
+	
+}
+.Gender input{
+	font-family: Courier New;
+	font-size: 15px;
+	padding-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.Gender label{
+	font-weight: bold;
+}
+.btn{
+padding-bottom: 20px;
+
+}
+.btn input{
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #1EADE3  ;
+	background-color:#4DCDD6 ;
+	font-size: 15px;
+	font-weight: bold;
+	color:#054468 ;
+}
+.btn input:hover{
+	transition: .3s;
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color:#054468 ;
+	color: #4DCDD6;
+}
+
